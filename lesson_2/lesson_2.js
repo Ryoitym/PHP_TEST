@@ -2,11 +2,11 @@ var name= "田中太郎";
 var company= "株式会社〇〇";
 
 alert(name + "は" + company + "に所属しています。");
-    
+
 
 var marvel = new Array(5);
 
-marvel[0] = "アイアンマン";
+marvel[0] = "アンパンマン";
 marvel[1] = "キャプテンアメリカ";
 marvel[2] = "スパイダーマン";
 marvel[3] = "ホークアイ";
