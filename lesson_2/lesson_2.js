@@ -6,7 +6,7 @@ alert(name + "は" + company + "に所属しています。");
 
 var marvel = new Array(5);
 
-marvel[0] = "しょくぱんまん";
+marvel[0] = "バイキンマン";
 marvel[1] = "キャプテンアメリカ";
 marvel[2] = "スパイダーマン";
 marvel[3] = "ホークアイ";
