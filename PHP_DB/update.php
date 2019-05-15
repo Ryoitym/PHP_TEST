@@ -39,6 +39,7 @@
         exit("SQL発行エラー：{$e->getMessage()}");
     }
 ?>
+
 <form action="update_exec.php" method="post">
 名前（漢字）: <input type="text" name="name_kanji"     value="<?php ph($row["name_kanji"]);?>"><br>
 名前（かな）: <input type="text" name="name_kana"     value="<?php ph($row["name_kana"]);?>"><br>
@@ -50,7 +51,16 @@
         </option>
         <?php } ?>
 <input type="hidden" name="student_id" value="<?php ph($row["student_id"]);?>">
+
 <input type="submit">
+
+<script>var upok = window.confirm("本当に編集しますか？");
+if(upok){
+    
+}else{
+    
+}
+</script>
 </form>
 </body>
 </html>
