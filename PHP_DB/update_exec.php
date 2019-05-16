@@ -5,7 +5,10 @@
 <title>データベース操作サンプル</title>
 </head>
 <body>
-<?php
+<script>
+var upok = window.confirm("本当に編集しますか？");
+if(upok){
+    <?php
     require_once("function.php");
     $dbh = connectDb();
 
@@ -28,6 +31,14 @@
         exit("SQL発行エラー：{$e->getMessage()}");
     }
 ?>
+}else{
+    window.location.replace('select1.php');
+}
+</script>
+
+
+
+
 <p>編集しました。</p>
 <p><a href="select1.php">トップページに戻る</a></p>
 </body>
