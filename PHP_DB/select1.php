@@ -21,6 +21,8 @@
     } catch (PDOException $e) {
         exit("SQL発行エラー：{$e->getMessage()}");
     }
+
+    setcookie("access", 0);
 ?>
 <form action="select2.php"method="post">
 検索：<input type="text" name="name_kanji">
