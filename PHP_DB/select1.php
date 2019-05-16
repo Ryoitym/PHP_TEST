@@ -54,6 +54,7 @@
     <br>
     <h2>人事部</h2>
 </table>
+
 <p><a href="insert.php">新規追加</a></p>
 </body>
 </html>
