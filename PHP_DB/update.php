@@ -54,7 +54,7 @@
 
 <input type="submit">
 
-<script>var upok = window.confirm("本当に編集しますか？");
+<script>window.onload(var upok = window.confirm("本当に編集しますか？"));
 if(upok){
     
 }else{
